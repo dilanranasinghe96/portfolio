@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import './footerStyles.css';
 
 const Footer = () => {
@@ -37,6 +37,9 @@ const Footer = () => {
             </a>
             <a href="https://github.com/dilanranasinghe96" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+            </a>
+            <a href="https://wa.me/+94771501357" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp size={30} style={{ color: "#fff", marginRight: "1rem" }} />
             </a>
           </div>
         </div>
