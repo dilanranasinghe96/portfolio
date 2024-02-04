@@ -8,14 +8,14 @@ const WorkCard = (props) => {
   return (
     
             <div className="project-card"> 
-                <img src={props.imgsrc} alt="image"/>
+                <img src={props.imgsrc} alt="image not found"/>
                 <h2 className='project-title'>{props.title}</h2>
                 <div className='pro-details'>
                     <p>{props.text}</p>
                     <div className='pro-btns'>
-                        <NavLink to={props.view} className="btn">view</NavLink>
-                        <NavLink to="url.com" className="btn">source</NavLink>
-
+                        
+                        <NavLink to="url.com" className="btn">view</NavLink>
+                        <NavLink to={props.view} className="btn" >source</NavLink>
                     
                 
                 </div>
